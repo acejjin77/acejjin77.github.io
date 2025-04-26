@@ -21,8 +21,8 @@ const illustration = {
 
 const greeting = {
   username: "박진성",
-  title: "개발하는 백엔드 개발자 박진성입니다.",
-  subTitle: "Java 기반 백엔드 개발자 입니다. Spring boot와 관련된 기술 (JPA, QuesyDSL, REDIS 등) 다수, Infra 관련,  다양한 RDBMS 경험을 보유하고 있습니다.",
+  title: "백엔드 개발자 박진성입니다.",
+  subTitle: "Java 기반 백엔드 개발과  Spring boot와 관련된 기술 (JPA, QuesyDSL, REDIS 등) 다수, Infra 관련,  다양한 RDBMS 경험을 보유하고 있습니다. 새로운 기술을 언제나 환영하고 즐길 준비가 됐습니다.",
   resumeLink:
     // "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
     "",
@@ -131,18 +131,17 @@ const openSource = {
 
 const bigProjects = {
   title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  subtitle: "",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/"),
+      projectName: "SCL 헬스케어 홈페이지 제작",
+      projectDesc: "기존 레거시 소스 (ASP.NET, IIS) 를 원활한 유지보수와 기능추가를 위해 Spring boot, Postgresql, linux 로 마이그레이션",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "홈페이지 보기",
+          url: "https://www.sclhealthcare.co.kr/"
         }
-        //  you can add extra buttons here.
       ]
     },
     {
