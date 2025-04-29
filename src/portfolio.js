@@ -91,7 +91,7 @@ const techStack = {
   experience: [
     {
       Stack: "프론트엔드", //Insert stack or technology you have experience in
-      progressPercentage: "30%" //Insert relative proficiency in percentage
+      progressPercentage: "50%" //Insert relative proficiency in percentage
     },
     {
       Stack: "백엔드",
@@ -112,7 +112,7 @@ const workExperiences = {
     {
       role: "백엔드 개발자",
       company: "서울의과학연구소",
-      companylogo: "./asset/images/scl.png",
+      companylogo: "./assets/images/scl.png",
       date: "2022.03 – Present",
       desc: "Spring Boot, Redis, PostgreSQL 기반 시스템 개발 및 유지보수. REST API 설계 및 대규모 데이터 처리 경험 보유.",
     },
@@ -134,7 +134,7 @@ const bigProjects = {
   subtitle: "",
   projects: [
     {
-      image: require("./assets/images/"),
+      image: require("./assets/images/shc.png"),
       projectName: "SCL 헬스케어 홈페이지 제작",
       projectDesc: "기존 레거시 소스 (ASP.NET, IIS) 를 원활한 유지보수와 기능추가를 위해 Spring boot, Postgresql, linux 로 마이그레이션",
       footerLink: [
@@ -145,13 +145,13 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/scl.png"),
+      projectName: "SCL 홈페이지 고도화 및 유지보수",
+      projectDesc: "홈페이지 내 기능 추가 및 테스트, 로그인 후 보이는 거래처용 결과조회서비스 유지보수",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: "홈페이지 보기",
+          url: "https://scllab.co.kr/"
         }
       ]
     }
@@ -165,7 +165,7 @@ const bigProjects = {
 const achievementSection = {
   title: emoji("Achievements And Certifications 🏆 "),
   subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+    "",
 
   achievementsCards: [
     {
@@ -217,7 +217,7 @@ const achievementSection = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
@@ -241,7 +241,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -260,7 +260,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -273,7 +273,7 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Resume Section
@@ -282,25 +282,25 @@ const resumeSection = {
   subtitle: "Feel free to download my resume",
 
   // Please Provide with Your Podcast embeded Link
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
-  title: emoji("Contact Me ☎️"),
+  title: emoji("연락처"),
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+    "아래 연락처로 언제든 연락바랍니다.",
+  number: "010-4946-1759",
+  email_address: "acejjin7@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,
